@@ -20,7 +20,7 @@ const p = document.querySelector(".dictionary");
 
 
 for (let i = 0; i < Object.keys(dictionary).length; i++) {
-    if (i > 0) {
+    /*if (i > 0) {
         if (dictionary[i][0].slice(0,1) !== dictionary[i-1][0].slice(0,1)) {
             var marker = document.createElement("h2");
             marker.className = "marker dict";
@@ -30,7 +30,7 @@ for (let i = 0; i < Object.keys(dictionary).length; i++) {
         var marker = document.createElement("h2");
         marker.className = "marker dict";
         marker.innerHTML = "n" + "</br></br>";
-    }
+    }*/
     
 
     var chword = document.createElement("p");
