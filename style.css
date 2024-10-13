@@ -161,6 +161,7 @@ body {
 @media (max-width: 768px) {
     .coverimg {
         height: 300px;
+        transform: scale(1.04)
     }
     body {
         --marginleft: 100px;
