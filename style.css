@@ -162,11 +162,11 @@ body {
     .coverimg {
         height: 300px;
     }
-    .side_bar {
-        width: 100px;
+    body {
+        --marginleft: 100px;
     }
     .maintext {
-        font-size: 70px;
+        font-size: 50px;
     }
     .spacepx {
         padding-left: 10%;
