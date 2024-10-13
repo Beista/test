@@ -16,6 +16,7 @@
     src: url("./gyeongi.ttf") format("truetype");
 }
 
+
 body {
     --font-family: 'adirmese', 'gyeongi';
     --color: #101010;
@@ -155,4 +156,20 @@ body {
 .side_bar ul li a {
     color: #eee;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .coverimg {
+        height: 300px;
+    }
+    .side_bar {
+        width: 100px;
+    }
+    .maintext {
+        font-size: 70px;
+    }
+    .spacepx {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
