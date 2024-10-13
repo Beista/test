@@ -41,5 +41,5 @@ for (let i = 0; i < Object.keys(dictionary).length; i++) {
     meaning.innerHTML = dictionary[i][1] + "</br></br>";
     meaning.className = "comment dict";
  
-    p.append(chword, meaning, marker);
+    p.append(chword, meaning);
 }
