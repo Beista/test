@@ -1,4 +1,5 @@
 
+
 let dictionary = JSON.parse(JSON.stringify(dict));
 //dictionary = [["sarel", "소녀"], ["adir", "새로운"], ["miym", "어머니"]];
 alphabet = ["n", "m", "a", "s", "z", "e", "f", "p", "h", "k", "ë", "t", "v", "d", "i", "g", "ÿ", "y", "o", "r", "l", "w", "x", "c", "j", "u"]
