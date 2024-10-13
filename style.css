@@ -21,7 +21,7 @@ body {
     --color: #101010;
     --subcolor: #606060;
     --background-color: #f2f1f0;
-    --marginleft: 250px;
+    --marginleft: 30%;
 
     background-color: var(--background-color);
     font-family: Arial, Helvetica, sans-serif;
